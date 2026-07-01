@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Turbopack: faster dev server, fewer filesystem reads than webpack
+  turbopack: {},
 };
 
 export default nextConfig;
